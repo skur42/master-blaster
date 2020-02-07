@@ -6,7 +6,7 @@
   "scripts": {
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "start": "npm run build:style && webpack-dev-server --mode development --open --hot --history-api-fallback",
-    "build": "npm run build:style && webpack --mode production",
+    "build": "npm run build:style && webpack --mode production; cp _redirects dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
