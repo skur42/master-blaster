@@ -17,7 +17,7 @@ React JS, Tailwind CSS, Express with Node JS, React-Redux
 
 ## Performance Optimization
 
-Used Chrome DevTools to analyze which components are rendered.
+Used Chrome DevTools to analyze which components are rendered. The page load time is under 2 seconds (Calculated using a chrome tool).
 
 ## Webpack Build Analyzer
 
